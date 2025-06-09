@@ -40,32 +40,14 @@ const Contact: React.FC = () => {
           message: ''
         });
         setIsSubmitting(false);
-        setSubmitStatus(null);
+        setTimeout(() => {
+          setSubmitStatus(null);
+        }, 5000)
+
       }
     } catch {
       setSubmitStatus('error');
     }
-
-    // setTimeout(() => {
-    //   setSubmitStatus(null);
-    // }, 5000);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      // setIsSubmitting(false);
-      // setSubmitStatus('success');
-      
-      // Reset form after successful submission
-      // setFormData({
-      //   name: '',
-      //   email: '',
-      //   subject: '',
-      //   message: ''
-      // });
-      
-      // Clear success message after 5 seconds
-     
-    }, 1500);
   };
   
   return (

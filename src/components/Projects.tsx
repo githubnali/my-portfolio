@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import Taskmate from '../assets/projects/taskmate.webp';
+
+import Cinemate from '../assets/projects/cinemate.webp'
 
 interface Project {
   id: number;
@@ -20,7 +23,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: 'Task Mate',
       description: 'A smart task manager app to organize, track, and complete tasks efficiently every day.',
-      image: '../src/assets/projects/taskmate.webp',
+      image: Taskmate,
       tags: ['React', 'Tailwind CSS', 'Bootstrap'],
       liveUrl: 'https://nalin-taskmate.netlify.app/',
       githubUrl: 'https://github.com/githubnali/nalin-taskmate',
@@ -31,7 +34,7 @@ const Projects: React.FC = () => {
       id: 2,
       title: 'Cinemate',
       description: 'Discover popular, top-rated, and upcoming movies with details using TMDB API in a sleek React web app',
-      image: '../src/assets/projects/cinemate.webp',
+      image: Cinemate,
       tags: ['React', 'APIs', 'Tailwind CSS'],
       liveUrl: 'https://nalin-cinemate.netlify.app/movies/popular',
       githubUrl: 'https://github.com/githubnali/nalin-cinemate',

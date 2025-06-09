@@ -1,6 +1,10 @@
 import React from 'react';
 import { Download } from 'lucide-react';
 
+import profile from '../assets/profile.webp'
+
+import resume from '../assets/My_Resume.pdf'
+
 const About: React.FC = () => {
   return (
     <section id="about" className="py-20 bg-white dark:bg-gray-800">
@@ -17,7 +21,7 @@ const About: React.FC = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden rounded-full border-4 border-indigo-100 dark:border-gray-700 shadow-xl">
               <div className="absolute inset-0 bg-gradient-to-br from-indigo-600/10 to-purple-600/10 dark:from-indigo-600/10 dark:to-purple-600/20"></div>
               <img 
-                src='../profile.webp'
+                src={profile}
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
@@ -61,7 +65,7 @@ const About: React.FC = () => {
               </div>
             </div>
             <a 
-              href="/src/assets/My_Resume.pdf" 
+              href={resume}
               download target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center px-5 py-3 bg-amber-700 hover:bg-amber-700 dark:bg-amber-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1 active:translate-y-0"
             >
