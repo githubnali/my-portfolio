@@ -5,8 +5,13 @@ const Hero: React.FC = () => {
   const [typedText, setTypedText] = useState('');
   const [isTyping, setIsTyping] = useState(true);
   
-  const roles = ['Frontend Developer', 'UX Designer', 'Problem Solver', 'Creative Thinker'];
-  
+  const roles = [
+    'Frontend Developer',
+    'ReactJs Enthusiast',
+    'Responsive UI Builder',
+    'Accessibility Learner',
+    'Anular Enthusiast'
+  ];  
   useEffect(() => {
     let currentRole = 0;
     let currentChar = 0;

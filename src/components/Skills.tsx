@@ -10,17 +10,17 @@ const Skills: React.FC = () => {
   const [filter, setFilter] = useState<string>('all');
   
   const skills: Skill[] = [
-    { name: 'JavaScript', level: 70, category: 'frontend' },
-    { name: 'React', level: 70, category: 'frontend' },
+    { name: 'JavaScript', level: 65, category: 'frontend' },
+    { name: 'React', level: 49, category: 'frontend' },
     { name: 'Angular', level: 25, category: 'frontend' },
-    { name: 'HTML & CSS', level: 75, category: 'frontend' },
+    { name: 'HTML & CSS', level: 70, category: 'frontend' },
     { name: 'TypeScript', level: 10, category: 'frontend' },
-    { name: 'Tailwind CSS', level: 70, category: 'frontend' },
-    { name: 'Responsive Design', level: 90, category: 'frontend' },
-    { name: 'Node.js', level: 40, category: 'backend' },
+    { name: 'Tailwind CSS', level: 75, category: 'frontend' },
+    { name: 'Responsive Design', level: 80, category: 'frontend' },
+    { name: 'Node.js', level: 30, category: 'backend' },
     { name: 'Express', level: 10, category: 'backend' },
-    { name: 'Figma', level: 30, category: 'design' },
-    { name: 'Git & GitHub', level: 70, category: 'other' },
+    { name: 'Figma', level: 15, category: 'design' },
+    { name: 'Git & GitHub', level: 50, category: 'other' },
   ];
   
   const filteredSkills = filter === 'all' 

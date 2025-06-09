@@ -18,8 +18,41 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-commerce Platform',
-      description: 'A full-featured e-commerce platform with product management, shopping cart, and checkout functionality.',
+      title: 'Task Mate',
+      description: 'A smart task manager app to organize, track, and complete tasks efficiently every day.',
+      image: '../src/assets/projects/taskmate.webp',
+      tags: ['React', 'Tailwind CSS', 'Bootstrap'],
+      liveUrl: 'https://nalin-taskmate.netlify.app/',
+      githubUrl: 'https://github.com/githubnali/nalin-taskmate',
+      featured: false
+
+    },
+    {
+      id: 2,
+      title: 'Cinemate',
+      description: 'Discover popular, top-rated, and upcoming movies with details using TMDB API in a sleek React web app',
+      image: '../src/assets/projects/cinemate.webp',
+      tags: ['React', 'APIs', 'Tailwind CSS'],
+      liveUrl: 'https://nalin-cinemate.netlify.app/movies/popular',
+      githubUrl: 'https://github.com/githubnali/nalin-cinemate',
+      featured: true
+    },
+    {
+      id: 3,
+      title: 'Sass Website Design Demo',
+      description: 'Sample Assignment built using HTML, CSS, Javascript',
+      image: 'https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      liveUrl: 'https://nalin-whitepace.netlify.app/',
+      githubUrl: '#',
+      featured: false
+
+
+    },
+    {
+      id: 4,
+      title: 'E-Commerce (Coming Soon....)',
+      description: 'Coming Soon....',
       image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React', 'MongoDB', 'Express'],
       liveUrl: '#',
@@ -27,39 +60,9 @@ const Projects: React.FC = () => {
       featured: true
     },
     {
-      id: 2,
-      title: 'Task Management App',
-      description: 'A productivity app for managing tasks, projects, and deadlines with team collaboration features.',
-      image: 'https://images.pexels.com/photos/6956353/pexels-photo-6956353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      tags: ['React', 'Firebase', 'Tailwind CSS'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: true
-    },
-    {
-      id: 3,
-      title: 'VR Website',
-      description: 'A responsive website for a local restaurant with menu, reservation, and contact features.',
-      image: 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      tags: ['HTML/CSS', 'JavaScript', 'UI/UX'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
-      id: 4,
-      title: 'Weather Dashboard',
-      description: 'A weather application that displays current and forecasted weather data based on location.',
-      image: 'https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      tags: ['JavaScript', 'APIs', 'CSS'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
       id: 5,
-      title: 'Social Media Dashboard',
-      description: 'An analytics dashboard for tracking social media performance across multiple platforms.',
+      title: 'Coming Soon....',
+      description: 'Coming Soon....',
       image: 'https://images.pexels.com/photos/7567432/pexels-photo-7567432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React', 'APIs'],
       liveUrl: '#',
@@ -68,8 +71,8 @@ const Projects: React.FC = () => {
     },
     {
       id: 6,
-      title: 'Personal Finance Tracker',
-      description: 'An application for tracking personal expenses, income, and financial goals.',
+      title: 'Coming Soon....',
+      description: 'Coming Soon....',
       image: 'https://images.pexels.com/photos/6693661/pexels-photo-6693661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React', 'TypeScript', ],
       liveUrl: '#',
@@ -78,12 +81,12 @@ const Projects: React.FC = () => {
     },
     {
       id: 7,
-      title: 'Task Mate',
-      description: 'A smart task manager app to organize, track, and complete tasks efficiently every day.',
-      image: '../src/assets/projects/taskmate.webp',
-      tags: ['React', 'Tailwind CSS', 'Bootstrap'],
-      liveUrl: 'https://nalin-taskmate.netlify.app/',
-      githubUrl: 'https://github.com/githubnali/nalin-taskmate',
+      title: 'Coming Soon....',
+      description: 'Coming Soon....',
+      image: 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      tags: ['HTML/CSS', 'JavaScript', 'UI/UX'],
+      liveUrl: '#',
+      githubUrl: '#',
       featured: false
     }
   ];
